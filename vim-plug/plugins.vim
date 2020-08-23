@@ -11,11 +11,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
     " File Explorer
-    Plug 'scrooloose/NERDTree'
+    Plug 'preservim/nerdtree' | Plug 'Xuyuanp/nerdtree-git-plugin'
+    " Add icons to file explorer
+    Plug 'ryanoasis/vim-devicons'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
-    " Nerd commenter (really don't know what it does)
-    " Plug 'scrooloose/nerdcommenter'
     " Improves bottom bar
     Plug 'vim-airline/vim-airline'
     " Creates tags for code
@@ -37,13 +37,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Adds linter
     Plug 'dense-analysis/ale'
     " Add completion COC
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}    
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " commenter
-    Plug 'tpope/vim-commentary'    
+    Plug 'tpope/vim-commentary'
     " sneak
-    Plug 'justinmk/vim-sneak'    
-    " quick scope 
+    Plug 'justinmk/vim-sneak'
+    " quick scope
     Plug 'unblevable/quick-scope'
-    "fzf
-    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 call plug#end()
+
