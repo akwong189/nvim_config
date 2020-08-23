@@ -8,6 +8,8 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+    " Tmux extension
+    Plug 'edkolev/tmuxline.vim'
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
     " File Explorer
@@ -46,5 +48,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'unblevable/quick-scope'
     " colorizer
     Plug 'norcalli/nvim-colorizer.lua'    
+
 call plug#end()
 
