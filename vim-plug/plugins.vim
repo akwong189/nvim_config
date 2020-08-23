@@ -44,5 +44,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'justinmk/vim-sneak'
     " quick scope
     Plug 'unblevable/quick-scope'
+    " colorizer
+    Plug 'norcalli/nvim-colorizer.lua'    
 call plug#end()
 

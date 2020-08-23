@@ -11,12 +11,6 @@ map gS <Plug>Sneak_,
 map gs <Plug>Sneak_;
 
 " Change the colors
-highlight Sneak guifg=black guibg=#00C7DF ctermfg=black ctermbg=cyan
+highlight Sneak guifg=black guibg=#727d7d ctermfg=black ctermbg=cyan
 highlight SneakScope guifg=red guibg=yellow ctermfg=red ctermbg=yellow
 
-" I like quickscope better for this since it keeps me in the scope of a single line
-" map f <Plug>Sneak_f
-" map F <Plug>Sneak_F
-" map t <Plug>Sneak_t
-" map T <Plug>Sneak_T:w
-"
