@@ -8,20 +8,20 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
-    " Tmux extension
-    Plug 'edkolev/tmuxline.vim'
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
-    " File Explorer
-    Plug 'preservim/nerdtree' | Plug 'Xuyuanp/nerdtree-git-plugin'
     " Add icons to file explorer
     Plug 'ryanoasis/vim-devicons'
+    " File Explorer
+    Plug 'tpope/vim-vinegar'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     " Improves bottom bar
-    Plug 'vim-airline/vim-airline'
-    " Creates tags for code
-    Plug 'majutsushi/tagbar'
+    Plug 'itchyny/lightline.vim'
+    " Adds gitbranch support to lightline
+    Plug 'itchyny/vim-gitbranch'
+    " add lightline ale support
+    Plug 'maximbaz/lightline-ale'
     " Adds rainbow brackets
     Plug 'luochen1990/rainbow'
     " Provides indent guides

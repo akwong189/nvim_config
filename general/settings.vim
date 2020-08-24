@@ -15,13 +15,13 @@ set smarttab				"smarter tabbing"
 set expandtab				"converts tabs to spaces"
 set smartindent				"smarter indenting"
 set autoindent				"auto indenting"
-" set cursorline				"cursor line highlighting"
+set cursorline				"cursor line highlighting"
 set noshowmode				"no more --INSERT--"
 set nowrap                  "Don't wrap text around"
 
 set nobackup				"recommended COC settings"
 set nowritebackup			"recommended COC settings"
 
-set clipboard=unnamedplus	"copy and paste between vim and others"
+" set clipboard=unnamedplus	"copy and paste between vim and others"
 
 au! BufWritePost $MYVIMRC source %	" auto source when writing to init.vm alternatively you can run :source $MYVIMRC
