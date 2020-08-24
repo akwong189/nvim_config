@@ -14,6 +14,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'ryanoasis/vim-devicons'
     " File Explorer
     Plug 'tpope/vim-vinegar'
+    Plug 'preservim/nerdtree' |
+            \ Plug 'Xuyuanp/nerdtree-git-plugin'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     " Improves bottom bar
@@ -48,6 +50,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'unblevable/quick-scope'
     " colorizer
     Plug 'norcalli/nvim-colorizer.lua'    
+    " Adds tagbar
+    Plug 'majutsushi/tagbar'
 
 call plug#end()
 
