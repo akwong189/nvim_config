@@ -41,5 +41,6 @@ function! ToggleVExplorer()
 endfunction
 nnoremap <silent> <C-T> :call ToggleVExplorer() <cr>
 
+" Easier tabbing between tabs
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
