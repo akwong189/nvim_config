@@ -42,6 +42,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Plug 'NLKNguyen/papercolor-theme'
     Plug 'arcticicestudio/nord-vim'
     Plug 'jacoborus/tender.vim'
+    Plug 'bluz71/vim-nightfly-guicolors'
     " Adds linter
     Plug 'dense-analysis/ale'
     " Add completion COC

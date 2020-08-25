@@ -3,22 +3,12 @@
 " colorscheme neodark
 
 " Set theme with ci_dark
-set fillchars+=vert:│
-colorscheme ci_dark
+" set fillchars+=vert:│
+" colorscheme ci_dark
 
-" Set theme to onehalf
-" colorscheme onehalfdark
-
-" set background=dark
-" colorscheme PaperColor
-
-" colorscheme one
-" let g:one_allow_italics = 1
-" set background=dark
-
-" colorscheme challenger_deep
-" colorscheme nord
-
-" colorscheme night-owl
+" Set theme with nightfly
+colorscheme nightfly
+let g:nightflyCursorColor = 1
+let g:nightflyUnderlineMatchParen = 1
 
 " colorscheme tender
