@@ -52,6 +52,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'norcalli/nvim-colorizer.lua'    
     " Adds tagbar
     Plug 'majutsushi/tagbar'
+    " Add vim surround
+    Plug 'tpope/vim-surround'
 
 call plug#end()
 
