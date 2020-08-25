@@ -1,6 +1,24 @@
-" Set theme
-" let g:neodark#use_256color=1
-let g:neodark#background = '#1d1f21'
-" let g:neodark#terminal_transparent = 1
+" Set theme with neodark
+" let g:neodark#background = '#1d1f21'
+" colorscheme neodark
 
-colorscheme neodark
+" Set theme with ci_dark
+set fillchars+=vert:│
+colorscheme ci_dark
+
+" Set theme to onehalf
+" colorscheme onehalfdark
+
+" set background=dark
+" colorscheme PaperColor
+
+" colorscheme one
+" let g:one_allow_italics = 1
+" set background=dark
+
+" colorscheme challenger_deep
+" colorscheme nord
+
+" colorscheme night-owl
+
+" colorscheme tender

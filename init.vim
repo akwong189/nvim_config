@@ -12,5 +12,8 @@ source $HOME/.config/nvim/plug-config/vim-commentary.vim
 source $HOME/.config/nvim/plug-config/vim-indent-guide.vim
 source $HOME/.config/nvim/plug-config/tree.vim
 source $HOME/.config/nvim/plug-config/tagbar.vim
+source $HOME/.config/nvim/plug-config/vim-sandwich.vim
+source $HOME/.config/nvim/plug-config/vim-polyglot.vim
+" source $HOME/.config/nvim/plug-config/nvim-tree.vim
 " source $HOME/.config/nvim/general/netrw.vim
 lua require'plug-colorizer'

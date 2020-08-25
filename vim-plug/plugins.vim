@@ -33,11 +33,15 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Adds VIM theme
     Plug 'KeitaNakamura/neodark.vim'
     Plug 'joshdick/onedark.vim'
-    Plug 'jacoborus/tender.vim'
-    Plug 'reedes/vim-colors-pencil'
+    " Plug 'reedes/vim-colors-pencil'
+    " Plug 'gryf/wombat256grf'
+    " Plug 'NLKNguyen/papercolor-theme'
+    Plug 'chuling/ci_dark'
+    " Plug 'sonph/onehalf', {'rtp': 'vim/'}
+    " Plug 'rakr/vim-one'
+    " Plug 'NLKNguyen/papercolor-theme'
     Plug 'arcticicestudio/nord-vim'
-    Plug 'gryf/wombat256grf'
-    Plug 'NLKNguyen/papercolor-theme'
+    Plug 'jacoborus/tender.vim'
     " Adds linter
     Plug 'dense-analysis/ale'
     " Add completion COC
@@ -53,7 +57,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Adds tagbar
     Plug 'majutsushi/tagbar'
     " Add vim surround
-    Plug 'tpope/vim-surround'
+    " Plug 'tpope/vim-surround'
+    Plug 'machakann/vim-sandwich'
 
 call plug#end()
 

@@ -1,5 +1,6 @@
 let g:lightline = {}
-let g:lightline.colorscheme = 'neodark'
+" let g:lightline.colorscheme = 'neodark'
+let g:lightline.colorscheme = 'ci_dark'
 
 " uses icons for git 
 let g:lightline#ale#indicator_checking = "\uf110"
