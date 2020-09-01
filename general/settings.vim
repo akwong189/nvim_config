@@ -23,5 +23,8 @@ set nobackup				"recommended COC settings"
 set nowritebackup			"recommended COC settings"
 
 " set clipboard=unnamedplus	"copy and paste between vim and others"
+set updatetime=300
+set timeoutlen=1000 
+set ttimeoutlen=0
 
 au! BufWritePost $MYVIMRC source %	" auto source when writing to init.vm alternatively you can run :source $MYVIMRC

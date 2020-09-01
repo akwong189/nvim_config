@@ -11,6 +11,6 @@ map gS <Plug>Sneak_,
 map gs <Plug>Sneak_;
 
 " Change the colors
-highlight Sneak guifg=black guibg=#727d7d ctermfg=black ctermbg=cyan
-highlight SneakScope guifg=red guibg=yellow ctermfg=red ctermbg=yellow
+" highlight Sneak guifg=black guibg=#727d7d ctermfg=black ctermbg=cyan
+" highlight SneakScope guifg=red guibg=yellow ctermfg=red ctermbg=yellow
 

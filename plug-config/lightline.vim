@@ -1,7 +1,7 @@
 let g:lightline = {}
 " let g:lightline.colorscheme = 'neodark'
-" let g:lightline.colorscheme = 'ci_dark'
-let g:lightline.colorscheme = 'nightfly'
+let g:lightline.colorscheme = 'ci_dark'
+" let g:lightline.colorscheme = 'nightfly'
 
 " uses icons for git 
 let g:lightline#ale#indicator_checking = "\uf110"
@@ -19,6 +19,7 @@ let g:lightline.component_expand = {
     \  'gitbranch': 'gitbranch#name',
     \  'filetype': 'MyFiletype',
     \  'fileformat': 'MyFileformat',
+    \  'kitestatus': 'kite#statusline()'
     \ }
 
 let g:lightline.component_type = {
@@ -28,7 +29,6 @@ let g:lightline.component_type = {
     \     'linter_errors': 'error',
     \     'linter_ok': 'right',
     \ }
-
 
 " Adds filetype icon to file type and fileformat
 function! MyFiletype()
@@ -40,7 +40,7 @@ function! MyFileformat()
 endfunction
 
 let g:lightline.active = { 
-    \ 'left':     [ [ 'mode', 'paste' ] , [ 'gitbranch',  'readonly', 'filename', 'modified' ] ],
+    \ 'left':     [ [ 'mode', 'paste' ] , [ 'gitbranch',  'readonly', 'filename', 'modified', 'kitestatus' ] ],
     \ 'right':    [ [ 'percent', 'lineinfo' ], [ 'filetype' ],
     \             [ 'linter_checking', 'linter_errors', 'linter_warnings', 'linter_infos', 'linter_ok' ] ],
     \ }

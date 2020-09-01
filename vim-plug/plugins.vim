@@ -1,4 +1,4 @@
-" auto installs vim plug
+ " auto installs vim plug
 if empty(glob('~/.config/nvim/autoload/plug.vim'))
   silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -8,58 +8,47 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
-    " Better Syntax Support
-    Plug 'sheerun/vim-polyglot'
-    " Add icons to file explorer
-    Plug 'ryanoasis/vim-devicons'
-    " File Explorer
+    Plug 'sheerun/vim-polyglot' " Better syntax support
+    Plug 'ryanoasis/vim-devicons' "Add icons to file explorer
     Plug 'tpope/vim-vinegar'
-    Plug 'preservim/nerdtree' |
-            \ Plug 'Xuyuanp/nerdtree-git-plugin'
-    " Auto pairs for '(' '[' '{'
-    Plug 'jiangmiao/auto-pairs'
-    " Improves bottom bar
-    Plug 'itchyny/lightline.vim'
-    " Adds gitbranch support to lightline
-    Plug 'itchyny/vim-gitbranch'
-    " add lightline ale support
-    Plug 'maximbaz/lightline-ale'
-    " Adds rainbow brackets
-    Plug 'luochen1990/rainbow'
-    " Provides indent guides
-    Plug 'nathanaelkane/vim-indent-guides'
-    " Adds Git functions
-    Plug 'airblade/vim-gitgutter'
+    Plug 'preservim/nerdtree' | Plug 'Xuyuanp/nerdtree-git-plugin' " File Explorer
+    Plug 'jiangmiao/auto-pairs' " Auto pairs for '(' '[' '{'
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " FZF
+    Plug 'junegunn/fzf.vim'
+
+    Plug 'itchyny/lightline.vim' " Improves bottom bar
+    Plug 'itchyny/vim-gitbranch' " Adds gitbranch support to lightline
+    Plug 'maximbaz/lightline-ale' " add lightline ale support
+
+    Plug 'luochen1990/rainbow' " Adds rainbow brackets
+    Plug 'nathanaelkane/vim-indent-guides' " Provides indent guides
+    Plug 'airblade/vim-gitgutter' " Adds Git functions
+
     " Adds VIM theme
     Plug 'KeitaNakamura/neodark.vim'
     Plug 'joshdick/onedark.vim'
-    " Plug 'reedes/vim-colors-pencil'
-    " Plug 'gryf/wombat256grf'
-    " Plug 'NLKNguyen/papercolor-theme'
     Plug 'chuling/ci_dark'
-    " Plug 'sonph/onehalf', {'rtp': 'vim/'}
-    " Plug 'rakr/vim-one'
-    " Plug 'NLKNguyen/papercolor-theme'
     Plug 'arcticicestudio/nord-vim'
     Plug 'jacoborus/tender.vim'
     Plug 'bluz71/vim-nightfly-guicolors'
-    " Adds linter
-    Plug 'dense-analysis/ale'
-    " Add completion COC
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    " commenter
-    Plug 'tpope/vim-commentary'
-    " sneak
-    Plug 'justinmk/vim-sneak'
-    " quick scope
-    Plug 'unblevable/quick-scope'
-    " colorizer
-    Plug 'norcalli/nvim-colorizer.lua'    
-    " Adds tagbar
+    Plug 'jaredgorski/spacecamp'
+    Plug 'eskilop/NorthernLights.vim'
+
+    Plug 'dense-analysis/ale' " Adds linter
+
+    " Add autocompletion
+    Plug 'prabirshrestha/vim-lsp'
+    Plug 'mattn/vim-lsp-settings'
+    Plug 'Shougo/deoplete.nvim'
+    Plug 'lighttiger2505/deoplete-vim-lsp'
+
+    Plug 'tpope/vim-commentary' " commenter
+    Plug 'justinmk/vim-sneak' " sneak
+    Plug 'unblevable/quick-scope' " quick scope
+    Plug 'norcalli/nvim-colorizer.lua' " colorizer
+    " Plug 'liuchengxu/vista.vim' " Adds tagbar
     Plug 'majutsushi/tagbar'
-    " Add vim surround
-    " Plug 'tpope/vim-surround'
-    Plug 'machakann/vim-sandwich'
+    Plug 'machakann/vim-sandwich' " Add surrounding software
 
 call plug#end()
 
