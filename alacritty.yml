@@ -7,8 +7,88 @@ font:
 
   bold:
     family: CaskaydiaCove Nerd Font Mono
-    style: Bold
+    # style: Bold
 
   italic:
     family: CaskaydiaCove Nerd Font Mono
-    style: Italic
+    # style: Italic
+
+# Colors for CI_dark
+colors:
+  # Default colors
+  primary:
+    background: '0x24292e'
+    foreground: '0xf6f8fa'
+
+  # Cursor colors
+  cursor:
+    text:   '0x24292e'
+    cursor: '0x85e89d'
+
+  # Normal colors
+  normal:
+    black:   '0x24292e'
+    red:     '0xf97583'
+    green:   '0x85e89d'
+    yellow:  '0xffea7f'
+    blue:    '0x79b8ff'
+    magenta: '0xb392f0'
+    cyan:    '0x73e3ff'
+    white:   '0xf6f8fa'
+
+  # Bright colors
+  bright:
+    black:   '0x959da5'
+    red:     '0xf97583'
+    green:   '0x85e89d'
+    yellow:  '0xffea7f'
+    blue:    '0x79b8ff'
+    magenta: '0xb392f0'
+    cyan:    '0x73e3ff'
+    white:   '0xf6f8fa'
+
+
+
+
+# # Colors similar to nightfly
+# draw_bold_text_with_bright_colors: true
+
+# # Colors
+# colors:
+#   # Default colors
+#   primary:
+#     background:        '#011627'
+#     foreground:        '#acb4c2'
+#     bright_foreground: '#eeeeee'
+
+#   # Cursor colors
+#   cursor:
+#     text:   '#080808'
+#     cursor: '#9ca1aa'
+
+#   # Selection colors
+#   selection:
+#     text:       '#080808'
+#     background: '#b2ceee'
+
+#   # Normal colors
+#   normal:
+#     black:   '#1d3b53'
+#     red:     '#fc514e'
+#     green:   '#a1cd5e'
+#     yellow:  '#e3d18a'
+#     blue:    '#82aaff'
+#     magenta: '#c792ea'
+#     cyan:    '#7fdbca'
+#     white:   '#a1aab8'
+
+#   # Bright colors
+#   bright:
+#     black:   '#7c8f8f'
+#     red:     '#ff5874'
+#     green:   '#21c7a8'
+#     yellow:  '#ecc48d'
+#     blue:    '#82aaff'
+#     magenta: '#ae81ff'
+#     cyan:    '#7fdbca'
+#     white:   '#d6deeb'
